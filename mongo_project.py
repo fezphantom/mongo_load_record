@@ -1,5 +1,9 @@
 import pymongo
 import logging
+from decouple import config
+
+username = config('username',default='')
+password = config('password',default='')
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -17,7 +21,7 @@ class database:
     @staticmethod
     def connect():
         client = pymongo.MongoClient(
-            f"mongodb+srv://fezphantom:ovienunu1@cluster0.5vtnaax.mongodb.net/?retryWrites=true&w=majority")
+            f"mongodb+srv://{username}:{password}@cluster0.5vtnaax.mongodb.net/?retryWrites=true&w=majority")
         return client
     
     def insert(self,data:list):

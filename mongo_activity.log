@@ -1,0 +1,34 @@
+2023-02-24 22:50:33,922 - INFO - Reading from file
+2023-02-24 22:50:33,922 - ERROR - [Errno 2] No such file or directory: 'glass.txt'
+2023-02-24 22:51:54,959 - INFO - Reading from file
+2023-02-24 22:51:54,960 - INFO - Changing column name index to indx
+2023-02-24 22:51:54,960 - INFO - Converting string datatype to int and float....
+2023-02-24 22:51:54,961 - INFO - Data successfuly converted
+2023-02-24 22:51:54,962 - INFO - Converting record to list of dictionaries
+2023-02-24 22:51:54,962 - INFO - Conversion completed
+2023-02-24 22:51:54,962 - INFO - Uploading record to collection....
+2023-02-24 22:53:41,293 - INFO - Reading from file
+2023-02-24 22:53:41,294 - INFO - Changing column name index to indx
+2023-02-24 22:53:41,294 - INFO - Converting string datatype to int and float....
+2023-02-24 22:53:41,295 - INFO - Data successfuly converted
+2023-02-24 22:53:41,295 - INFO - Converting record to list of dictionaries
+2023-02-24 22:53:41,295 - INFO - Conversion completed
+2023-02-24 22:53:41,295 - INFO - Uploading record to collection....
+2023-02-24 22:53:42,057 - ERROR - 'Collection' object is not callable. If you meant to call the 'insertmany' method on a 'Collection' object it is failing because no such method exists.
+2023-02-24 22:53:42,057 - INFO - Records uploaded
+2023-02-24 22:53:42,057 - INFO - Updating a record with value: 9....
+2023-02-24 22:53:58,559 - INFO - Record updated
+2023-02-24 22:53:58,559 - INFO - Deleting a record....
+2023-02-24 22:54:10,260 - INFO - Successfully deleted a record from the collection
+2023-02-24 22:54:50,895 - INFO - Reading from file
+2023-02-24 22:54:50,896 - INFO - Changing column name index to indx
+2023-02-24 22:54:50,896 - INFO - Converting string datatype to int and float....
+2023-02-24 22:54:50,897 - INFO - Data successfuly converted
+2023-02-24 22:54:50,897 - INFO - Converting record to list of dictionaries
+2023-02-24 22:54:50,898 - INFO - Conversion completed
+2023-02-24 22:54:50,898 - INFO - Uploading record to collection....
+2023-02-24 22:55:00,510 - INFO - Records uploaded
+2023-02-24 22:55:00,511 - INFO - Updating a record with value: 9....
+2023-02-24 22:55:08,491 - INFO - Record updated
+2023-02-24 22:55:08,492 - INFO - Deleting a record....
+2023-02-24 22:55:22,805 - INFO - Successfully deleted a record from the collection
